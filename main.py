@@ -1,12 +1,12 @@
 import PasswordChecker
 
 def main():
-    user_pswd = input("Enter a password pls: ")
+    user_pswd = input("Enter a password: ")
     result = PasswordChecker.pswd_check(user_pswd)
     if result == True:
-        print("Smashed it mate, golf clap.")
+        print("Password accepted")
     else:
-        print("Ugh you total fucking idiot!!")
+        print("Invalid password")
 
 if __name__ == "__main__":
     main()
